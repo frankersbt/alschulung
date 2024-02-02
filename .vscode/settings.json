@@ -1,0 +1,53 @@
+{
+    // The paths will be checked on the machine that runs the service instance.
+    // You have to restart the service when you copy or delete a DotNet-Component
+    "al.assemblyProbingPaths": [
+        "C:/Windows/assembly",
+        "C:/Windows/Microsoft.NET/assembly",
+        "./.vscode/.netpackages",
+        "C:/Run"
+    ],
+    // Path to the Symbol Files
+    "al.packageCachePath": "./.vscode/.alpackages",
+    // Path to the snapshot Debugging Code
+    "al.snapshotDebuggingPath": "./.vscode/.snapshots",
+    // Path to the AL Ruleset
+    "al.ruleSetPath": "./.vscode/ruleset.json",
+    // Check XML Documentation
+    "al-xml-doc.CheckObjectDocumentationInformationLevel": "Disabled",
+    "al-xml-doc.CheckProcedureDocumentationInformationLevel": "Disabled",
+    "al-xml-doc.CheckProcedureDocumentationForType": [
+        "Global Procedures",
+        "Local Procedures",
+        "Internal Procedures",
+        "Protected Procedures",
+        "Event Publisher"
+    ],
+    "al-xml-doc.CheckProcedureDocumentationForAccessLevel": [
+        "Public",
+        "Internal",
+        "Local"
+    ],
+    // Check AL Syntax
+    "al.enableCodeAnalysis": true,
+    // Code-Cops which will be used
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${AppSourceCop}",
+        "${PerTenantExtensionCop}"
+    ],
+    // Zoom Level
+    "window.zoomLevel": 2,
+    // Tabulator Size
+    "editor.tabSize": 4,
+    // Performance Boost
+    "terminal.integrated.gpuAcceleration": "on",
+    // Show Home Screen On Startup
+    "al.showHomeAtStartup":"WhenUpdated",
+    // ToDo-Settings
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.scanMode":"workspace",
+    "todo-tree.tree.disableCompactFolders": false
+}

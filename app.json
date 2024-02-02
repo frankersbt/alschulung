@@ -1,0 +1,30 @@
+{
+  "id": "836CB5F9-8C1B-4C82-961A-A3A0EA5A4DCE",
+  "name": "AL-Schulung",
+  "publisher": "RS Business Technologies",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "screenshots": [],
+  "platform": "23.0.0.0",
+  "application": "23.0.0.0",
+  "resourceExposurePolicy":
+  {"allowDebugging": true,
+   "allowDownloadingSource": true,
+   "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "target" : "Cloud",
+  "features": ["TranslationFile"],
+   "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+   ]
+}

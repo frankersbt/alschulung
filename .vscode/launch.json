@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Launch",
+            "server": "http://tmt-bc02.tmtsolutions.de/BC230_DEMO",
+            "serverInstance": "BC230_DEMO_NUP",
+            "authentication": "UserPassword",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "schemaUpdateMode": "ForceSync",
+            "dependencyPublishingOption": "Ignore",
+            "usePublicURLFromServer": false,
+            "port": 23059
+        },
+        {
+        "name": "Snapshot",
+        "request": "snapshotInitialize",
+        "type": "al",
+        "server": "http://tmt-bc02.tmtsolutions.de/BC230_DEMO",
+        "environmentType": "OnPrem",
+        "serverInstance": "BC230_DEMO_NUP",
+        "authentication": "UserPassword",
+        "breakOnNext": "WebClient",
+        "port": 23052
+        }
+    ]
+}

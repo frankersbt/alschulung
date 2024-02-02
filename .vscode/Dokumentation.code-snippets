@@ -1,0 +1,11 @@
+{
+	"Schulung_Obsolete": {
+		"prefix": "Schulung_Obsolete",
+		"body": [
+			"ObsoleteTag = '23.0';",
+            "ObsoleteState = Removed;",
+            "ObsoleteReason = 'Delete after Migration';"
+		],
+		"description": "Menu Entry"
+	}
+}
